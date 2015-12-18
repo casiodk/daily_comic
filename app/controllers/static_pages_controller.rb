@@ -10,6 +10,6 @@ class StaticPagesController < ApplicationController
       array << item.at_css(".comic-image").children.at_css('img').attr('src')
     end
 
-    @image_url = array.sample
+    redirect_to array.sample
   end
 end
