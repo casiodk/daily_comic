@@ -46,3 +46,4 @@ group :development do
 end
 
 gem 'nokogiri'
+gem 'rails_12factor'
